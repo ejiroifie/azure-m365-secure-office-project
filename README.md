@@ -86,7 +86,6 @@ Self-guided lab project simulating the creation of a professional, secure Micros
 
 
 
-
 ## Repository Contents
 - `/images/` – All verification screenshots above
 - `/scripts/audit-devices.ps1` – PowerShell script for Intune device audit
