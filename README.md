@@ -70,19 +70,22 @@ Self-guided lab project simulating the creation of a professional, secure Micros
 
 ![MFA Enforcement Prompt](images/mfa-prompt.png)
 
-![Conditional Access Policy in Entra ID](images/Conditional Access Policy Page in Entra.png)
+![Conditional Access Policy in Entra ID](images/conditional-access-policy-entra.png)
 
-![SharePoint Site and Members List](images/Sharepoint-site-and-members.png)
+![SharePoint Site and Members List](images/sharepoint-site-members.png)
 
-![Intune Compliance Status (Mobile and Portal)](images/Compliance-status(mobile and portal).png)
+![Intune Compliance Status (Mobile and Portal)](images/compliance-status-mobile-portal.png)
 
-![Sensitivity Label Applied in Word (Mobile)](images/Sensitivity-label-word.png)
+![Sensitivity Label Applied in Word (Mobile)](images/sensitivity-label-word.png)
 
-![Defender for Endpoint - No Threats](images/Defender-no-threats.png)
+![Defender for Endpoint - No Threats](images/defender-no-threats.png)
 
-![Managed Google Play Connection Success](images/Managed Google Play Connection success.png)
+![Managed Google Play Connection Success](images/managed-google-play-connection.png)
 
-![PowerShell Device Audit Output](images/Powershell-audit.png)
+![PowerShell Device Audit Output](images/powershell-audit.png)
+
+
+
 
 ## Repository Contents
 - `/images/` – All verification screenshots above
