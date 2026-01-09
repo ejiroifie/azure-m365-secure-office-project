@@ -1,0 +1,4 @@
+# PowerShell script to audit Intune managed devices via Microsoft Graph
+Install-Module Microsoft.Graph -Scope CurrentUser -Force
+Connect-MgGraph -Scopes "DeviceManagementManagedDevices.Read.All"
+Get-MgDeviceManagementManagedDevice | Select-Object DeviceName, Model, ComplianceState | Out-GridView
