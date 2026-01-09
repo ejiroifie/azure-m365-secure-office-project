@@ -67,7 +67,6 @@ Self-guided lab project simulating the creation of a professional, secure Micros
 - Produced structured documentation suitable for handover
 
 ## Verification Screenshots
-
 ![MFA Enforcement Prompt](images/mfa-prompt.png)
 
 ![Conditional Access Policy in Entra ID](images/conditional-access-policy-entra.png)
@@ -83,6 +82,9 @@ Self-guided lab project simulating the creation of a professional, secure Micros
 ![Managed Google Play Connection Success](images/managed-google-play-connection.png)
 
 ![PowerShell Device Audit Output](images/powershell-audit.png)
+
+
+
 
 
 
