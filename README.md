@@ -66,8 +66,26 @@ Self-guided lab project simulating the creation of a professional, secure Micros
 - Applied troubleshooting skills from IT support to cloud scenarios
 - Produced structured documentation suitable for handover
 
+## Verification Screenshots
+
+![MFA Enforcement Prompt](images/mfa-prompt.png)
+
+![Conditional Access Policy in Entra ID](images/Conditional Access Policy Page in Entra.png)
+
+![SharePoint Site and Members List](images/Sharepoint-site-and-members.png)
+
+![Intune Compliance Status (Mobile and Portal)](images/Compliance-status(mobile and portal).png)
+
+![Sensitivity Label Applied in Word (Mobile)](images/Sensitivity-label-word.png)
+
+![Defender for Endpoint - No Threats](images/Defender-no-threats.png)
+
+![Managed Google Play Connection Success](images/Managed Google Play Connection success.png)
+
+![PowerShell Device Audit Output](images/Powershell-audit.png)
+
 ## Repository Contents
-- `/images/` – Key screenshots (MFA prompt, compliance status, sensitivity label, Defender status, etc.)
+- `/images/` – All verification screenshots above
 - `/scripts/audit-devices.ps1` – PowerShell script for Intune device audit
 
 This project showcases practical ability to deliver secure M365 solutions. Feedback welcome!
