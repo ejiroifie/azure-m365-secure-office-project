@@ -132,6 +132,20 @@ As the eligible test user, I signed in to the Entra portal and activated the Sec
 - Applied troubleshooting skills from IT support to cloud scenarios
 - Produced structured documentation suitable for handover
 
+## Design Decisions & Why
+
+- **Custom Branding**: Added "Visual Trust Factor" to train users against phishing – critical for banking scenarios.
+- **E5 Licensing**: Unlocked advanced security features (Intune, Defender, Purview) – enterprise standard for compliance.
+- **Security Group for Finance Department**: Enables scalable policy application and least privilege – avoids individual management.
+- **Conditional Access with MFA**: Enforces multi-factor for all cloud apps – prevents password-only access to sensitive data.
+- **Private SharePoint Site**: Restricts access to members only – protects departmental collaboration.
+- **Intune Compliance Policies**: Requires encryption, BitLocker, antivirus – ensures device health before access (bank-grade standard).
+- **Managed Google Play & Work Profile**: Separates work/personal data on Android – meets BYOD security requirements.
+- **Purview Sensitivity Label**: Applies encryption and watermarks – automatic DLP for confidential files.
+- **Defender for Endpoint Integration**: Enables risk-based compliance – Zero Trust trigger blocks on threats.
+- **PowerShell Audit Script**: Automates device status check – scales for large environments vs manual portal review.
+
+
 ## Verification Screenshots
 ![MFA Enforcement Prompt](images/mfa-prompt.png)
 
