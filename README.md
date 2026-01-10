@@ -84,7 +84,7 @@ Configured PIM role settings for Security Administrator with bank-grade security
 
 
 #### Eligible Assignment
-Assigned the Security Administrator role as **Eligible** to a dedicated test privileged user (`securityadmin@Cyber344.onmicrosoft.com`).  
+Assigned the Security Administrator role as **Eligible** to a dedicated test privileged user (`securityadmin@xxxxxxx.com`).  
 This enables just-in-time activation without giving permanent standing privileges.
 
 Key steps documented:
