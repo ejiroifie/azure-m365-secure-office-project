@@ -56,6 +56,72 @@ Self-guided lab project simulating the creation of a professional, secure Micros
 - Created risk-based compliance policy and deployed Defender app
 - Verified "Compliant" status and no threats
 
+### Phase 8: Privileged Identity Management (PIM) – Just-in-Time Privileged Access (Advanced Extension)
+
+This phase builds on the Zero Trust identity foundation by implementing Privileged Identity Management (PIM) for the Security Administrator role. PIM enforces just-in-time (JIT) access: admins can only activate privileged roles temporarily when needed, with MFA, justification, and automatic expiration — reducing standing privileged accounts in a global banking environment.
+
+
+#### Role Settings Configuration
+Configured PIM role settings for Security Administrator with bank-grade security controls:
+
+- **Activation**:
+  - Maximum duration: 4 hours (temporary access only)
+  - Require Azure MFA on activation: Yes
+  - Require justification on activation: Yes
+  - Require approval: No (for lab simplicity; can be added in production)
+
+- **Assignment**:
+  - Allow permanent eligible assignments: Yes
+  - No permanent active assignments (prevents standing privileges)
+
+- **Notification**:
+  - Enabled alerts for assignments, activations, and renewals to admins and assignees
+
+![PIM Activation Settings](images/pim-images/pim-settings-activation-tab-configured.png)
+![PIM Assignment Settings](images/pim-images/pim-settings-assignment-tab.png)
+![PIM Notification Settings](images/pim-images/pim-settings-notification-tab.png)
+
+
+
+#### Eligible Assignment
+Assigned the Security Administrator role as **Eligible** to a dedicated test privileged user (`securityadmin@Cyber344.onmicrosoft.com`).  
+This enables just-in-time activation without giving permanent standing privileges.
+
+Key steps documented:
+- Opening the Add assignments pane
+- Selecting the test user
+- Configuring Eligible assignment type
+- Confirmation of success
+- Final updated Eligible assignments list
+
+![Add Assignments Pane Opened](images/pim-images/pim-add-assignments-pane-opened.png)
+![Select Member Picker Opened](images/pim-images/pim-select-member-picker-opened.png)
+![Test User Selected](images/pim-images/pim-select-test-user-checked.png)
+![Assignment Settings - Eligible](images/pim-images/pim-assignment-settings-eligible.png)
+![Assignment Success Confirmation](images/pim-images/pim-assignment-success-confirmation.png)
+![Assignment Success Popup](images/pim-images/pim-assignment-success-popup.png)
+![Eligible List After Assignment](images/pim-images/pim-eligible-assignments-list-after-add.png)
+
+
+#### Activation as Test User
+As the eligible test user, I signed in to the Entra portal and activated the Security Administrator role just-in-time (JIT):
+
+- Viewed the eligible role in My roles
+- Requested activation with justification and MFA
+- Confirmed successful temporary activation (role shows as Active with expiration in 2 hours)
+
+![My Roles - Eligible List](images/pim-images/pim-my-roles-eligible-list.png)
+![Activate Pane with Justification](images/pim-images/pim-activate-pane-with-justification.png)
+![Activation Success & Active Status](images/pim-images/pim-activation-success-and-active.png)
+
+
+#### Key Learnings & Design Decisions
+- Implemented JIT access for privileged roles to enforce least privilege and reduce risk of standing admin accounts.
+- Integrated MFA and justification requirements, aligning with existing Conditional Access policies.
+- Used permanent eligible assignment for realistic ongoing admin use, with short activation duration (2 hours) for automatic revocation.
+- This extension strengthens the overall Zero Trust posture of the Global Bank digital office.
+
+
 ## Challenges and Troubleshooting
 - Group sync delays (Entra/SharePoint) – resolved with individual adds
 - Defender/Intune connection propagation – fixed by enabling plans and waiting
