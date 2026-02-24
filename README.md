@@ -16,7 +16,7 @@ Self-guided lab project simulating the creation of a professional, secure Micros
 
 **Tools/Services Used**: Microsoft 365 E5 trial, Entra ID, Intune, SharePoint, Purview, Defender for Endpoint, PowerShell.
 
-**Note**: Applying 5+ years of IT support experience to Azure/M365 through targeted self-guided projects. All steps performed in a test tenant – no production data or real deployments. Aligns with roles involving M365 optimizations, migrations, and security (e.g., Intune/Defender setups).
+**Note**: Applying 5+ years of IT professional experience to Azure/M365 through targeted self-guided projects. All steps performed in a test tenant – no production data or real deployments. Aligns with roles involving M365 optimizations, migrations, and security (e.g., Intune/Defender setups).
 
 ## Phases and Implementation Summary
 
